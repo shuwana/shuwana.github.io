@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&family=Syne:wght@800&display=swap");
+
+body {
+  background-color: #ece6c2;
+  color: #4c2215;
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  padding: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #f2eac5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #4c2215;
+}
+
+h1 {
+  font-size: 52px;
+  font-family: "Syne", sans-serif;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Rubik", sans-serif;
+  color: rgba(76, 34, 21, 0.65);
+}
+
+.input-group {
+  width: 100%;
+  padding: 40px 12px 40px 12px;
+}
+
+#userInput {
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  border-bottom: 2px solid #4c2215;
+  width: 50%;
+}
+
+#Date {
+  display: block;
+  border-bottom: 2px solid black;
+}
+
+#duedatelabel {
+  margin-top: -20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+#duedate {
+  padding: 20px;
+  margin-top: -22px;
+  font-size: 18px;
+  background: transparent;
+  border: none;
+}
+
+#add-btn {
+  border-radius: 0;
+  backgound-color: #ffeddb;
+  padding-right: 24px;
+  border: 2px solid #4c2215;
+  height: 60px;
+}
+
+#add-btn:hover {
+  background-color: #4c2215;
+  border: 2px solid #4c2215;
+}
+
+svg {
+  margin-right: 4px;
+}
+
+.invalid-feedback {
+  text-align: left;
+  color: #e03c30;
+}
+
+ul li {
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  padding: 12px 60px 12px 60px;
+  font-size: 20px;
+  transition: 0.2s;
+  width: 100%;
+}
+
+ul li:nth-child(odd) {
+  background: #f2eac5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ul li:nth-child(even) {
+  background: #ddd6b4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ul li.checked {
+  background: #cc6b49;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+ul li.checked:hover {
+  background: rgba(204, 107, 73, 0.8);
+}
+
+ul li:hover {
+  background: rgba(229, 166, 50, 0.8);
+}
+
+.trash-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.trash-btn:hover {
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.badge {
+  background: #73bda8;
+  font-size: 14px;
+}
